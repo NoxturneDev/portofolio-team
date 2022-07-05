@@ -1,6 +1,16 @@
+@import 'base/reset';
 @import 'base/variables';
+// @import 'base/thypography';
+@import 'base/mixins';
 
-@import 'components/utility';
+@import 'components/icons';
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/carousel';
+
+@import 'layout/navbar';
+@import 'layout/hero';
+@import 'layout/footer';
 
 @import 'page/about';
 @import 'page/landing-page';
