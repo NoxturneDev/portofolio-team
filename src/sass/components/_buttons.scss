@@ -1,0 +1,29 @@
+// BUTTON
+.button {
+    padding: 0.8em 0.8em;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.close-btn{
+    // @include backgroundCover("../assets/icon/close-btn-line.svg");
+} 
+
+.close-btn--fill{
+    // @include backgroundContain("../assets/icon/close-btn-fill.svg");
+}
+
+.send-btn{
+    // @include backgroundContain("../assets/icon/send-icon.svg");
+}
+
+@mixin iconSmallBtn(){
+    outline: 0 none;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
