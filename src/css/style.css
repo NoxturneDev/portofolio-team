@@ -80,31 +80,6 @@ h3 {
   }
 }
 
-.small-logo {
-  width: 7rem;
-  margin: 1rem;
-}
-
-.icon-ig {
-  min-width: 3rem;
-  min-height: 3rem;
-}
-
-.icon-wa {
-  min-width: 3rem;
-  min-height: 3rem;
-}
-
-.icon-github {
-  min-width: 3rem;
-  min-height: 3rem;
-}
-
-.icon-gmail {
-  min-width: 3rem;
-  min-height: 3rem;
-}
-
 .button {
   cursor: pointer;
   border: none;
