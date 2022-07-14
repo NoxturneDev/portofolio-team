@@ -1,0 +1,24 @@
+.navbar{
+   @include leftAlignElement();
+  padding: $paddingSmall $paddingBig;
+  background-color: $backgroundColor;
+   .logo-container{
+     flex-grow: 1;
+     h2{
+        color: $txtColor
+     }
+   }
+   .nav-links{
+    @include centerElement();
+
+    .nav-link{
+        margin: $marginSmall;
+        a {
+            color: $txtColor;
+        }
+        #btnlogin{
+       @include button($txtColor, $SecondaryColor);
+        }
+    }
+   }
+}

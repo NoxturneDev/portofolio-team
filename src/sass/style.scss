@@ -1,6 +1,9 @@
 @import 'base/reset';
 @import 'base/variables';
-<<<<<<< HEAD
+@import 'base/thypography';
+
+
+
 // @import 'base/thypography';
 @import 'base/mixins';
 
@@ -12,15 +15,8 @@
 @import 'layout/navbar';
 @import 'layout/hero';
 @import 'layout/footer';
-=======
-@import 'base/mixins';
-@import 'base/thypography';
 
-@import 'components/buttons';
-@import 'components/cards';
-@import 'components/carousel';
-@import 'components/icons';
->>>>>>> sass
+
 
 @import 'page/about';
 @import 'page/landing-page';

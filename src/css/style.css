@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.btn-primary {
-  background-color: "#1B2430";
-}/*# sourceMappingURL=style.css.map */
-=======
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
@@ -91,12 +80,39 @@ h3 {
   }
 }
 
+.small-logo {
+  width: 7rem;
+  margin: 1rem;
+}
+
+.icon-ig {
+  min-width: 3rem;
+  min-height: 3rem;
+}
+
+.icon-wa {
+  min-width: 3rem;
+  min-height: 3rem;
+}
+
+.icon-github {
+  min-width: 3rem;
+  min-height: 3rem;
+}
+
+.icon-gmail {
+  min-width: 3rem;
+  min-height: 3rem;
+}
+
 .button {
-  padding: 0.8em 0.8em;
-  text-align: center;
   cursor: pointer;
   border: none;
-  border-radius: 5px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  color: #E7E1E1;
+  background-color: #1B2430;
+  max-width: 6rem;
 }
 
 .long-card {
@@ -126,32 +142,35 @@ h3 {
   cursor: pointer;
 }
 
-.small-logo {
-  width: 7rem;
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0.5rem 3.5rem;
+  background-color: #1B2430;
+}
+.navbar .logo-container {
+  flex-grow: 1;
+}
+.navbar .logo-container h2 {
+  color: #E7E1E1;
+}
+.navbar .nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .nav-links .nav-link {
   margin: 1rem;
 }
-
-.icon-ig {
-  min-width: 3rem;
-  min-height: 3rem;
+.navbar .nav-links .nav-link a {
+  color: #E7E1E1;
 }
-
-.icon-wa {
-  min-width: 3rem;
-  min-height: 3rem;
+.navbar .nav-links .nav-link #btnlogin {
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  color: #E7E1E1;
+  background-color: #38486A;
 }
-
-.icon-github {
-  min-width: 3rem;
-  min-height: 3rem;
-}
-
-.icon-gmail {
-  min-width: 3rem;
-  min-height: 3rem;
-}
-
-.button {
-  color: #02559E;
-}
->>>>>>> sass

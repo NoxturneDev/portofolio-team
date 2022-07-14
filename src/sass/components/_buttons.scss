@@ -1,29 +1,17 @@
 // BUTTON
-.button {
-    padding: 0.8em 0.8em;
-    text-align: center;
+
+
+@mixin button($color, $bgColor) {
     cursor: pointer;
-    border: none;
-    border-radius: 5px;
+    border:none;
+  padding: $paddingSmall $paddingMedium;
+  font-weight: $semibold;
+  color: $color;
+  background-color: $bgColor;
+
 }
 
-.close-btn{
-    // @include backgroundCover("../assets/icon/close-btn-line.svg");
-} 
-
-.close-btn--fill{
-    // @include backgroundContain("../assets/icon/close-btn-fill.svg");
-}
-
-.send-btn{
-    // @include backgroundContain("../assets/icon/send-icon.svg");
-}
-
-@mixin iconSmallBtn(){
-    outline: 0 none;
-    border: none;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    cursor: pointer;
+.button{
+    @include button($txtColor,$backgroundColor);
+    max-width: 6rem;
 }
