@@ -1,0 +1,27 @@
+<<<<<<< HEAD
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+=======
+// CSS DEFAULT RESET
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    :focus{
+        outline: 0!important;
+    }
+
+    -webkit-tap-highlight-color: transparent!important;
+}
+
+body {
+    overflow-x: hidden;
+}
+>>>>>>> sass

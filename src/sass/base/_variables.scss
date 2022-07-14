@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+// COLOR VARIABLE
+$backgroundColor : #1B2430;
+$SecondaryColor : #38486A;
+$txtColor: #E7E1E1;
+// @ridhoray tolong variable warnanya diganti sesuai design
+
+// CSS BREAKPOINT 
+$phoneBreakpoint : 450px;
+$tabletBreakpoint :  768px;
+$laptop : 992px;
+$dekstop : 1200px;
+
+// FONT STYLE
+$poppins : 'Poppins', sans-serif;
+$montserrat : 'Montserrat', sans-serif;
+// @ridhoray tolong variable fontnya diganti sesuai design
+
+
+// FONT WEIGHT
+$bold : 700;
+$semibold : 500;
+$regular : 400;
+$light : 300;
+$lightest : 200;
+
+// BORDER RADIUS
+$borderRadiusSmall : 12px;
+$borderRadiusFull: 100%;
+
+
+// MARGIN
+$marginMedium : 2rem;
+$marginSmall : 1rem;
+$marginBig : 3.5rem;
+$marginLarge : 6rem;
+$marginSuperLarge : 12rem;
+
+// PADDING
+$paddingMedium : 1.5rem;
+$paddingSmall : 0.5rem;
+$paddingBig : 3.5rem;
+$paddingLarge : 5rem;
+
+// SMOOTH SHADOW
+$lightSmoothShadow :  0px -2px 41px rgba(64, 61, 119, 0.18), 0px -0.250431px 5.13384px rgba(56, 53, 116, 0.085);
+
+// OTHERS
+$debug : 1px solid red;
+
+// IMAGE SIZE 
+// ON DESKTOP
+$deskImgMax : 14.5rem;
+$deskImgMin : 10rem;
+
+// ON PHONE
+
+// minimun
+$phoneImgMin : 4rem;
+// maximum
+$phoneImgMax : 8rem;
+
