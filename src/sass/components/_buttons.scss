@@ -24,6 +24,10 @@
     max-width: 6em;
 }
 
+.button-secondary{
+    @include button(blue,salmon )
+}
+
 //ridho
 
 
