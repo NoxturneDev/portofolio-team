@@ -19,5 +19,16 @@
 
 //bikin 3 button, bedain di warna aja
 
+.button-primary{
+    @include button(red,green);
+    max-width: 6em;
+}
+
 //ridho
+
+
+// semangat ridho
+//ridho
+
+// halooo pa dosennn
 
