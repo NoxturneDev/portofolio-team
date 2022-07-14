@@ -1,4 +1,36 @@
+<<<<<<< HEAD
 // BIG CARDS
 
 // SMALL CARDS
 
+=======
+
+// CARDS
+.long-card{
+    width: 80vw;
+    height: 30vh;
+    margin: $marginMedium auto;
+    padding: $paddingMedium;
+    border-radius: 9px;
+}
+
+.big-cards{
+    @include dropShadow2();
+
+    width: 20rem;
+    height: 50vh;
+    margin: $marginMedium auto;
+    padding: $paddingMedium;
+    border-radius: 9px;
+}
+
+.small-cards{
+    width: 15rem;
+    height: 20vh;
+    margin: $marginMedium;
+    box-shadow: $lightSmoothShadow;
+    padding: $paddingMedium;
+    border-radius: 9px;
+    cursor: pointer;
+}
+>>>>>>> sass

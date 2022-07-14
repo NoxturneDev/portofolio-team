@@ -1,0 +1,31 @@
+// ICON
+.small-logo{
+    width: 7rem;
+    margin: $marginSmall;
+}
+
+// ICON CONTACT
+.icon-ig{
+    // @include backgroundContain("../assets/icon/instagram.svg");
+
+    min-width: 3rem;
+    min-height: 3rem;
+}
+.icon-wa{
+    // @include backgroundContain("../assets/icon/whatsapp.svg");
+
+    min-width: 3rem;
+    min-height: 3rem;
+}
+.icon-github{
+    // @include backgroundContain("../assets/icon/github.svg");
+
+    min-width: 3rem;
+    min-height: 3rem;
+}
+.icon-gmail{
+    // @include backgroundContain("../assets/icon/gmail.svg");
+
+    min-width: 3rem;
+    min-height: 3rem;
+}
