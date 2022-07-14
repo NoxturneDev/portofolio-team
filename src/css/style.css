@@ -111,4 +111,8 @@ h3 {
 .icon-gmail {
   min-width: 3rem;
   min-height: 3rem;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.button {
+  color: #02559E;
+}
