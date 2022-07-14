@@ -1,17 +1,23 @@
-// BUTTON
 
-
-@mixin button($color, $bgColor) {
+@mixin button($color, $bgColor){
     cursor: pointer;
-    border:none;
-  padding: $paddingSmall $paddingMedium;
-  font-weight: $semibold;
-  color: $color;
-  background-color: $bgColor;
-
+    border: none;
+    padding: $paddingSmall $paddingMedium;
+    font-weight: $semibold;
+    color: $color;
+    background-color: $bgColor;
 }
 
 .button{
-    @include button($txtColor,$backgroundColor);
+    @include button($txtColor, $backgroundColor);
+
     max-width: 6rem;
 }
+// button primary (btn utama)
+// button secondary (btn cadangan, btn bayangan)
+// button gagal, yg merah" biasanya
+
+//bikin 3 button, bedain di warna aja
+
+//ridho
+
