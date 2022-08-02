@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent !important;
+}
+* :focus {
+  outline: 0 !important;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  line-height: 120%;
+}
+
+html {
+  font-size: 13px;
+}
+@media screen and (min-width: 400px) {
+  html {
+    font-size: calc(13px + 3 * ((100vw - 400px) / 1000));
+  }
+}
+@media screen and (min-width: 1400px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+h1 {
+  font-size: 2.744rem;
+  font-size: 13px;
+}
+@media screen and (min-width: 400px) {
+  h1 {
+    font-size: calc(13px + 3 * ((100vw - 400px) / 1000));
+  }
+}
+@media screen and (min-width: 1400px) {
+  h1 {
+    font-size: 16px;
+  }
+}
+
+h2 {
+  font-size: 1.96rem !important;
+  font-size: 13px;
+}
+@media screen and (min-width: 400px) {
+  h2 {
+    font-size: calc(13px + 3 * ((100vw - 400px) / 1000));
+  }
+}
+@media screen and (min-width: 1400px) {
+  h2 {
+    font-size: 16px;
+  }
+}
+
+h3 {
+  font-size: 1.4rem !important;
+  font-size: 13px;
+}
+@media screen and (min-width: 400px) {
+  h3 {
+    font-size: calc(13px + 3 * ((100vw - 400px) / 1000));
+  }
+}
+@media screen and (min-width: 1400px) {
+  h3 {
+    font-size: 16px;
+  }
+}
+
+.button {
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  color: #E7E1E1;
+  background-color: #1B2430;
+  max-width: 6rem;
+}
+
+.button-primary {
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  color: red;
+  background-color: green;
+  max-width: 6em;
+}
+
+.button-secondary {
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  color: blue;
+  background-color: red;
+}
+
+.long-card {
+  width: 80vw;
+  height: 30vh;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 9px;
+}
+
+.big-cards {
+  box-shadow: 0 7.2px 27.3px -22px rgba(91, 81, 143, 0.5), 0 7.6px 33.1px -22px rgba(91, 81, 143, 0.159), 0 12px 53px -22px rgba(91, 81, 143, 0.129);
+  width: 20rem;
+  height: 50vh;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 9px;
+}
+
+.small-cards {
+  width: 15rem;
+  height: 20vh;
+  margin: 2rem;
+  box-shadow: 0px -2px 41px rgba(64, 61, 119, 0.18), 0px -0.250431px 5.13384px rgba(56, 53, 116, 0.085);
+  padding: 1.5rem;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #1B2430;
+  padding: 0.5rem 3.5rem;
+}
+.navbar .logo-container {
+  flex-grow: 1;
+}
+.navbar .logo-container h2 {
+  color: #E7E1E1;
+}
+.navbar .nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .nav-links .nav-link {
+  margin: 1rem;
+}
+.navbar .nav-links .nav-link a {
+  color: #E7E1E1;
+}
+.navbar .nav-links .nav-link #btnLogin {
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  color: #E7E1E1;
+  background-color: #38486A;
+}/*# sourceMappingURL=style.css.map */
