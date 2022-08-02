@@ -100,6 +100,15 @@ h3 {
   max-width: 6em;
 }
 
+.button-secondary {
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  color: blue;
+  background-color: red;
+}
+
 .long-card {
   width: 80vw;
   height: 30vh;
@@ -158,4 +167,4 @@ h3 {
   font-weight: 500;
   color: #E7E1E1;
   background-color: #38486A;
-}
+}/*# sourceMappingURL=style.css.map */
