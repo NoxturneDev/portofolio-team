@@ -15,13 +15,6 @@
 }
 
 
-
-// button primary (btn utama)
-// button secondary (btn cadangan, btn bayangan)
-// button gagal, yg merah" biasanya
-
-//bikin 3 button, bedain di warna aja
-
 .button-primary{
     @include button($txtColor,$SecondaryColor);
     max-width: 6rem;
@@ -39,11 +32,4 @@
     max-width: 6rem;
     border-radius: 2rem;
 }
-//ridho
-
-
-// semangat ridho
-//ridho
-
-// halooo pa dosennn
 
