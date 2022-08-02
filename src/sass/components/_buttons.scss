@@ -8,11 +8,14 @@
     background-color: $bgColor;
 }
 
-.button{
-    @include button($txtColor, $backgroundColor);
+#btnlogin{
+    @include button($txtColor, $SecondaryColor);
 
     max-width: 6rem;
 }
+
+
+
 // button primary (btn utama)
 // button secondary (btn cadangan, btn bayangan)
 // button gagal, yg merah" biasanya
@@ -20,14 +23,22 @@
 //bikin 3 button, bedain di warna aja
 
 .button-primary{
-    @include button(red,green);
-    max-width: 6em;
+    @include button($txtColor,$SecondaryColor);
+    max-width: 6rem;
+    border-radius: 2rem;
 }
 
 .button-secondary{
-    @include button(blue,red )
+    @include button($txtColor, #65728e );
+    max-width: 6rem;
+    border-radius: 2rem;
 }
 
+.button-danger{
+    @include button(#f8ebeb, #fc2b2b );
+    max-width: 6rem;
+    border-radius: 2rem;
+}
 //ridho
 
 
