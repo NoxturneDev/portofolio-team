@@ -80,13 +80,13 @@ h3 {
   }
 }
 
-.button {
+#btnlogin {
   cursor: pointer;
   border: none;
   padding: 0.5rem 1.5rem;
   font-weight: 500;
   color: #E7E1E1;
-  background-color: #1B2430;
+  background-color: #38486A;
   max-width: 6rem;
 }
 
@@ -95,9 +95,32 @@ h3 {
   border: none;
   padding: 0.5rem 1.5rem;
   font-weight: 500;
-  color: red;
-  background-color: green;
-  max-width: 6em;
+  color: #E7E1E1;
+  background-color: #38486A;
+  max-width: 6rem;
+  border-radius: 2rem;
+}
+
+.button-secondary {
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  color: #E7E1E1;
+  background-color: #65728e;
+  max-width: 6rem;
+  border-radius: 2rem;
+}
+
+.button-danger {
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  color: #f8ebeb;
+  background-color: #fc2b2b;
+  max-width: 6rem;
+  border-radius: 2rem;
 }
 
 .long-card {
@@ -158,4 +181,10 @@ h3 {
   font-weight: 500;
   color: #E7E1E1;
   background-color: #38486A;
+}
+
+main {
+  position: relative;
+  top: 20px;
+  left: 20px;
 }
