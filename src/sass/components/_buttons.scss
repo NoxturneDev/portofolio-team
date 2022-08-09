@@ -9,7 +9,6 @@
 
 #btnlogin {
   @include button($txtColor, $SecondaryColor);
-
   max-width: 6rem;
 }
 
@@ -28,14 +27,4 @@
   @include button(#f8ebeb, #fc2b2b);
   max-width: 6rem;
   border-radius: 2rem;
-}
-=======
-
-@mixin button($color, $bgColor){
-    cursor: pointer;
-    border: none;
-    padding: $paddingSmall $paddingMedium;
-    font-weight: $semibold;
-    color: $color;
-    background-color: $bgColor;
 }

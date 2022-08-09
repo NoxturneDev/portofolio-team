@@ -1,3 +1,45 @@
+// STYLE CHOICE (RIDHO)
+.choice-container{
+   @include centerElement();
+   flex-direction: column;
+   width: 100vw;
+   height: 100vh;
+   padding: $paddingMedium;
+   background-color: $backgroundColor;
+   color:$txtColor;
+   .choice-header{
+     h1{
+      font-size: 38px;
+     }
+      margin-bottom: 3em;
+   }
+   
+   .choice-content{
+      width: 100%;
+
+   @include centerElement;
+   
+     .choice-card{
+      width: 100%;
+      @include centerElement;
+      flex-direction:column;
+      margin: $marginMedium $marginSmall;
+      .box{
+         width: 100px;
+         height: 100px;
+         background-color: white;
+      }
+      .choice-card-text{
+         margin-top: $marginSmall;
+       align-items: center;
+       @include customfont(10px, 20px);
+      }
+     }
+   }
+}
+
+// STYLE TECH STACK (GALIH)
+
 // STYLE JUMBOTRON (BANG IKO)
 .jumbotron-container {
   @include centerElement();
@@ -39,7 +81,3 @@
     }
   }
 }
-
-// STYLE CHOICE (RIDHO)
-
-// STYLE TECH STACK (GALIH)
