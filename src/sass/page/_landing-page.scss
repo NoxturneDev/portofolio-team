@@ -4,3 +4,66 @@
 // STYLE CHOICE (RIDHO)
 
 // STYLE TECH STACK (GALIH)
+.tech-stack-container{
+    @include centerElement();
+
+    width: 100vw;
+    height: 100vh;
+    padding: $paddingMedium;
+    color: white;
+    background-color: $backgroundColor;
+}
+
+.tech-stack-content{
+    @include centerElement();
+    
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.content-text{
+    @include centerElement();
+
+    flex-direction: column;
+    width: 50%;
+    .title{
+        text-align: center;
+    }
+    .text{
+        text-align: center;
+
+    }
+}
+
+.content-graphic{
+    @include centerElement();
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    .columns{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.img-container{
+    @include centerElement();
+
+    width: 100vw;
+    margin: $marginSmall;
+
+    .image{
+        @include centerElement();
+        margin: $marginSmall;
+        width: 40%;
+        .box{
+            width: 10rem;
+            background-color: $SecondaryColor;
+            height: 5rem;
+        }
+        .special{
+            margin-bottom: -5rem ;
+        }
+    }
+}
