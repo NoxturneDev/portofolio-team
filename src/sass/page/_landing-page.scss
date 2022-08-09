@@ -1,5 +1,44 @@
 // STYLE JUMBOTRON (BANG IKO)
+.jumbotron-container {
+  @include centerElement();
+  height: 80vh;
+  width: 100vw;
+  background-color: $SecondaryColor;
 
+  .content-jombotron {
+    @include centerElement();
+    flex-direction: column;
+
+    .heading-content-jombotron {
+      font-family: $poppins;
+      @include centerElement();
+      font-size: 70px;
+      line-height: 192px;
+      letter-spacing: 0.15em;
+      color: #e7e1e1;
+      font-weight: $bold;
+      margin: $marginSmall;
+    }
+
+    .text-content-jumbotron {
+      font-family: $poppins;
+      @include centerElement();
+      font-weight: 400;
+      font-size: 33px;
+      line-height: 60px;
+      text-align: center;
+      color: #e7e1e1;
+    }
+    .btn-contact {
+      margin: $marginSmall;
+      opacity: 0.8;
+    }
+    .btn-contact:hover {
+      opacity: 1;
+      transition: 0.2s linear;
+    }
+  }
+}
 
 // STYLE CHOICE (RIDHO)
 
