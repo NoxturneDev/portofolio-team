@@ -29,3 +29,13 @@
   max-width: 6rem;
   border-radius: 2rem;
 }
+=======
+
+@mixin button($color, $bgColor){
+    cursor: pointer;
+    border: none;
+    padding: $paddingSmall $paddingMedium;
+    font-weight: $semibold;
+    color: $color;
+    background-color: $bgColor;
+}

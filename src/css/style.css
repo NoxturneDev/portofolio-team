@@ -81,12 +81,13 @@ h3 {
 }
 
 #btnlogin {
+.button {
   cursor: pointer;
   border: none;
   padding: 0.5rem 1.5rem;
   font-weight: 500;
   color: #E7E1E1;
-  background-color: #38486A;
+  background-color: #1B2430;
   max-width: 6rem;
 }
 
@@ -118,7 +119,6 @@ h3 {
   font-weight: 500;
   color: #f8ebeb;
   background-color: #fc2b2b;
-  max-width: 6rem;
   border-radius: 2rem;
 }
 
@@ -227,3 +227,4 @@ h3 {
   opacity: 1;
   transition: 0.2s linear;
 }/*# sourceMappingURL=style.css.map */
+
