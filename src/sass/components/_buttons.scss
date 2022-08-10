@@ -1,49 +1,29 @@
-
-@mixin button($color, $bgColor){
-    cursor: pointer;
-    border: none;
-    padding: $paddingSmall $paddingMedium;
-    font-weight: $semibold;
-    color: $color;
-    background-color: $bgColor;
+@mixin button($color, $bgColor) {
+  cursor: pointer;
+  border: none;
+  padding: $paddingSmall $paddingMedium;
+  font-weight: $semibold;
+  color: $color;
+  background-color: $bgColor;
 }
 
-#btnlogin{
-    @include button($txtColor, $SecondaryColor);
-
-    max-width: 6rem;
+#btnlogin {
+  @include button($txtColor, $SecondaryColor);
 }
 
-
-
-// button primary (btn utama)
-// button secondary (btn cadangan, btn bayangan)
-// button gagal, yg merah" biasanya
-
-//bikin 3 button, bedain di warna aja
-
-.button-primary{
-    @include button($txtColor,$SecondaryColor);
-    max-width: 6rem;
-    border-radius: 2rem;
+.button-primary {
+  @include button($txtColor, $SecondaryColor);
+  border-radius: 9px;
 }
 
-.button-secondary{
-    @include button($txtColor, #65728e );
-    max-width: 6rem;
-    border-radius: 2rem;
+.button-secondary {
+  @include button($txtColor, #65728e);
+  border-radius: 9px;
 }
 
-.button-danger{
-    @include button(#f8ebeb, #fc2b2b );
-    max-width: 6rem;
-    border-radius: 2rem;
+.button-danger {
+  @include button(#f8ebeb, #fc2b2b);
+  max-width: 6rem;
+  border-radius: 9px;
 }
-//ridho
-
-
-// semangat ridho
-//ridho
-
-// halooo pa dosennn
 

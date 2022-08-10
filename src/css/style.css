@@ -80,14 +80,13 @@ h3 {
   }
 }
 
-.button {
+#btnlogin {
   cursor: pointer;
   border: none;
   padding: 0.5rem 1.5rem;
   font-weight: 500;
   color: #E7E1E1;
-  background-color: #1B2430;
-  max-width: 6rem;
+  background-color: #38486A;
 }
 
 .button-primary {
@@ -95,9 +94,9 @@ h3 {
   border: none;
   padding: 0.5rem 1.5rem;
   font-weight: 500;
-  color: red;
-  background-color: green;
-  max-width: 6em;
+  color: #E7E1E1;
+  background-color: #38486A;
+  border-radius: 9px;
 }
 
 .button-secondary {
@@ -105,8 +104,20 @@ h3 {
   border: none;
   padding: 0.5rem 1.5rem;
   font-weight: 500;
-  color: blue;
-  background-color: red;
+  color: #E7E1E1;
+  background-color: #65728e;
+  border-radius: 9px;
+}
+
+.button-danger {
+  cursor: pointer;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+  color: #f8ebeb;
+  background-color: #fc2b2b;
+  max-width: 6rem;
+  border-radius: 9px;
 }
 
 .long-card {
@@ -167,4 +178,102 @@ h3 {
   font-weight: 500;
   color: #E7E1E1;
   background-color: #38486A;
+}
+
+.choice-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  padding: 1.5rem;
+  background-color: #1B2430;
+  color: #E7E1E1;
+}
+.choice-container .choice-header {
+  margin-bottom: 3em;
+}
+.choice-container .choice-header h1 {
+  font-size: 38px;
+}
+.choice-container .choice-content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choice-container .choice-content .choice-card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem 1rem;
+}
+.choice-container .choice-content .choice-card .box {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+.choice-container .choice-content .choice-card .choice-card-text {
+  margin-top: 1rem;
+  align-items: center;
+  font-size: 10px;
+}
+@media screen and (min-width: 400px) {
+  .choice-container .choice-content .choice-card .choice-card-text {
+    font-size: calc(10px + 10 * ((100vw - 400px) / 1000));
+  }
+}
+@media screen and (min-width: 1400px) {
+  .choice-container .choice-content .choice-card .choice-card-text {
+    font-size: 20px;
+  }
+}
+
+.jumbotron-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 100vw;
+  background-color: #38486A;
+}
+.jumbotron-container .content-jombotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.jumbotron-container .content-jombotron .heading-content-jombotron {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  line-height: 192px;
+  letter-spacing: 0.15em;
+  color: #e7e1e1;
+  font-weight: 700;
+  margin: 1rem;
+}
+.jumbotron-container .content-jombotron .text-content-jumbotron {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 33px;
+  line-height: 60px;
+  text-align: center;
+  color: #e7e1e1;
+}
+.jumbotron-container .content-jombotron .btn-contact {
+  margin: 1rem;
+  opacity: 0.8;
+}
+.jumbotron-container .content-jombotron .btn-contact:hover {
+  opacity: 1;
+  transition: 0.2s linear;
 }/*# sourceMappingURL=style.css.map */
