@@ -26,3 +26,8 @@ npm-debug.log*
 coverage
 
 .history/
+
+# ignore compiled css
+src/css/*
+.css
+.css.map
